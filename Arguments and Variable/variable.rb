@@ -123,14 +123,14 @@ puts "\nConstant Variable"
 puts "*"*50
 
 class Users 
-  No_Employees = $users
+  No_User = $users
 end
 
-puts Users::No_Employees  # This will give the output of to globle variable $users in this example $users = 3 so this will give output as a 3
-puts Users::No_Employees += 1
+puts Users::No_User  # This will give the output of to globle variable $users in this example $users = 3 so this will give output as a 3
+puts Users::No_User += 1
 =begin
 This will throw an warning but generate the output
-variable.rb:131: warning: already initialized constant Users::No_Employees
-variable.rb:126: warning: previous definition of No_Employees was here
+variable.rb:131: warning: already initialized constant Users::No_User
+variable.rb:126: warning: previous definition of No_User was here
 ==> 4
 =end
