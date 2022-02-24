@@ -1,0 +1,30 @@
+Limit: 2147483647
+[EXPLICIT] NoMemoryError: failed to allocate memory
+[EXPLICIT] LoadError: cannot load such file -- invalid/file/path
+[EXPLICIT] SyntaxError: (eval):1: syntax error, unexpected '=', expecting end-of-input
+1+2=3
+   ^
+[EXPLICIT] SignalException: SIGTERM
+1
+2
+[EXPLICIT] Interrupt: 
+[EXPLICIT] ArgumentError: wrong number of arguments (given 2, expected 0..1)
+[EXPLICIT] IOError: not opened for writing
+[EXPLICIT] EOFError: end of file reached
+[EXPLICIT] IndexError: index 5 outside of array bounds: -4...4
+[EXPLICIT] LocalJumpError: unexpected return
+[EXPLICIT] NameError: wrong constant name title
+[EXPLICIT] NoMethodError: undefined method `Hello' for #<No_Method_Error:0x0000558d664acad8>
+[EXPLICIT] RangeError: bignum too big to convert into `long'
+[EXPLICIT] FloatDomainError: Infinity
+[EXPLICIT] RegexpError: target of repeat operator is not specified: /?/
+[EXPLICIT] FrozenError: can't modify frozen String: "Sanket Panasuriya"
+Is Bob tainted? No
+[EXPLICIT] Errno::ENOENT: No such file or directory @ rb_sysopen - missing/file/path
+[EXPLICIT] SystemStackError: stack level too deep
+[EXPLICIT] ThreadError: stopping only thread
+	note: use sleep to stop forever
+[EXPLICIT] TypeError: no implicit conversion of String into Integer
+[EXPLICIT] ZeroDivisionError: divided by 0
+[EXPLICIT] SystemExit: exit
+[EXPLICIT] fatal: Uh oh, something is seriously broken!
