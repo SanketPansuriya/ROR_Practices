@@ -1,0 +1,5 @@
+instance_eval - self is: Developer
+inside a method self is: Developer
+class_eval - self is: Developer
+inside a method self is: #<Developer:0x000055a002554ef0>
+inside a method self is: Developer
