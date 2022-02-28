@@ -1,0 +1,4 @@
+--------- Normal way --------------
+#<Students:0x000055b77879c5e0 @name="Sanket", @branch="B.Tech Computer", @email="spanasuriya892@rku.ac.in", @sem="8th">
+--------- Meta Programing way --------------
+#<Students:0x000055b7787b68c8 @name="Sanket", @branch="B.Tech Computer", @email="spanasuriya892@rku.ac.in", @sem="8th">
