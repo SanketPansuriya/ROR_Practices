@@ -1,0 +1,3 @@
+No method Found
+--------- Method missing way --------------
+#<Students:0x000055cc9bc0eb68 @name1="Sanket", @branch1="B.Tech Computer", @email1="spanasuriya892@rku.ac.in", @sem1="8th">
