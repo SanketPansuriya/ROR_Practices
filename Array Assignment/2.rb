@@ -40,5 +40,5 @@ puts check_palindrome(str)
 puts is_palindrome?(str)
 
 ## Simplest way to find Palindrome is below but it's not optimum solution 
-## Just because of whet is the input is '123 321' or any palindrome string combination those are not like Palindrome but generate get true answer
+## Just because of what if the input is '123 321' or any palindrome string combination those are not like Palindrome number but generate get true answer
 puts str == str.reverse
