@@ -35,7 +35,9 @@ p two_sum(numbers, result)
 
 # Second Way
 results = (0...numbers.size).to_a.combination(2).select { |first, last| numbers[first] + numbers[last] == result }
-puts results
+results.each {|i|
+  p i
+}
 
 
 ## Explaination :
