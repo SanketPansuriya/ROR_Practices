@@ -21,7 +21,16 @@ def reversevowels(string)
   arr.join
 end
 
+## Second Way
+def reversevowels1(string)
+  vowels = string.chars.select {|i| i =~ /[aeiou]/i}
+  vowels_reverse = vowels.reverse
+   string.gsub(/[aeiou]/i).each_with_index { |m,i|
+    vowels_reverse[i]
+  }
+end
 
 string = "communication"
 
 p reversevowels(string)
+p reversevowels1(string)
