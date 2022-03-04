@@ -23,7 +23,7 @@ end
 ## Second Way
 
 def check_palindrome(string)
-
+  start = Time.now.usec
   ## Check where 'string' is Interger if Integer then convert it to String
   string = string.to_s if string.is_a? Integer 
   
@@ -45,6 +45,7 @@ def check_palindrome(string)
     ## Incresing Count
     count -= 1
   end
+  puts Time.now.usec - start
   return true
 end
 
@@ -58,4 +59,6 @@ puts is_palindrome?(str)
 
 ## Simplest way to find Palindrome is below but it's not optimum solution 
 ## Just because of what if the input is '123 321' or any palindrome string combination those are not like Palindrome number but generate get true answer
+start = Time.now.usec
 puts str == str.reverse
+puts Time.now.usec - start
