@@ -10,6 +10,7 @@ Explanation: numbers[0] + numbers[2] = 13
 =end
 
 def two_sum(nums, target)
+  start = Time.now.usec
   nums.each_with_index do |value,index|
     ## Difference between target value and current value of array
     y = target - value
@@ -20,6 +21,7 @@ def two_sum(nums, target)
     ## Check "y" is available in "nums" array if available then return current index of array and index of "y"
     ## or else there is last index iterect and steel not find targeted sum then return False
     if nums.include? y
+      puts "Inside function: #{Time.now.usec - start}"
       return index, nums.index(y)
     elsif nums.length-1 == index
       return "No target sum found"
@@ -29,15 +31,18 @@ end
 
 numbers = [10,11,16,5]
 result = 15
-
+start = Time.now.usec
 p two_sum(numbers, result)
-
+puts "When Function Calling: #{Time.now.usec - start}"
+puts 
 
 # Second Way
+start = Time.now.usec
 results = (0...numbers.size).to_a.combination(2).select { |first, last| numbers[first] + numbers[last] == result }
 results.each {|i|
   p i
 }
+puts Time.now.usec - start
 
 
 ## Explaination :
